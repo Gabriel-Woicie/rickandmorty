@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./assets/logo-min.svg" type="image/x-icon">
+
+  <title>Rick and Morty</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/logo-min.svg" width="30" height="30" alt="">
+      </a>
+      <span class="navbar-text">
+        <a href="index.html" class="btn btn-sm btn-outline-secondary">Personagens</a>
+        <a href="location.html" class="btn btn-sm btn-outline-secondary">Localizações</a>
+      </span>
+    </nav>
+    <img src="./assets/logo.svg" class="imagem-com-margens rounded mx-auto d-block img-fluid" alt="...">
+  </div>
+
+  <div class="container">
+    <div class="row"> 
+      <div class="col-3">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="text" id="search" placeholder="Busque pelo nome..." aria-label="Pesquisar">
+        </form>
+      </div>
+      <div class="col-3">
+    <select name="species" id="species" class="form-control">
+      <option value="" default>
+          Espécies
+      </option>
+      <option value="animal">Animal</option>
+      <option value="alien">Alien</option>
+      <option value="disease">Doença</option>
+      <option value="unknown">Desconhecido</option>
+      <option value="human">Humano</option>
+      <option value="humanoid">Humanoide</option>
+      <option value="mythological">Mitologico</option>
+      <option value="poopybutthole">Poopybutthole</option>
+      <option value="robot">Robo</option>
+    </select>
+      </div>
+      <div class="col-3">
+    <select name="gender" id="gender" class="form-control">
+      <option value="">
+         Gênero
+      </option>
+      <option value="female">Feminino</option>
+      <option value="male">Masculino</option>
+      <option value="genderless">Sem Genero</option>
+      <option value="unknown">Desconhecido</option>
+    </select>
+      </div>
+      <div class="col-3">
+    <select name="status" id="status" class="form-control">
+      <option value="">
+         Status
+      </option>
+      <option value="alive">Vivo</option>
+      <option value="dead">Morto</option>
+      <option value="unknown">Desconhecido</option>
+    </select>
+      </div>
+    </div>
+  </div>
+  <div class="containermy">
+      <section class="chars">
+        <div class="chars-container">
+          <!-- <div class="char">
+            <img src="./assets/rick.png" alt="">
+            <div class="char-info">
+              <h3>Rick Sanchez</h3>
+              <span>Humano</span>
+            </div>
+          </div> -->
+        </div>
+        <button id="load-more">
+          Carregar mais
+        </button>
+      </section>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

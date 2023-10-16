@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="styleloc.css">
+  <link rel="shortcut icon" href="./assets/logo-min.svg" type="image/x-icon">
+
+  <title>Rick and Morty - Localizações</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/logo-min.svg" width="30" height="30" alt="">
+      </a>
+      <span class="navbar-text">
+        <a href="index.html" class="btn btn-sm btn-outline-secondary">Personagens</a>
+        <a href="location.html" class="btn btn-sm btn-outline-secondary">Localizações</a>
+      </span>
+    </nav>
+    
+    <img src="./assets/rick-and-morty 1.png" class="imagem-com-margens rounded mx-auto d-block img-fluid" alt="...">
+  </div>
+
+  <div class="container">
+    <div class="row"> 
+      <div class="col-4">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="text" id="search" placeholder="Busque pelo nome..." aria-label="Pesquisar">
+        </form>
+      </div>
+      <div class="col-4">
+    <select name="type" id="type" class="form-control">
+      <option value="" default>
+          Tipo
+      </option>
+      <option value="Planet">Planeta</option>
+      <option value="Cluster">Cluster</option>
+      <option value="Space station">Estação Espacial</option>
+      <option value="unknown">Desconhecido</option>
+      <option value="Microverse">Microverse</option>
+      <option value="TV">TV</option>
+      <option value="Resort">Resort</option>
+      <option value="Fantasy town">Torre Fantasia</option>
+      <option value="Dream">Sonhos</option>
+      <option value="Dimension">Dimensão</option>
+      <option value="Menagerie">Zoológico</option>
+      <option value="Game">Jogos</option>
+      <option value="Customs">Customizados</option>
+      <option value="Daycare">Creche</option>
+      <option value="Dwarf planet (Celestial Dwarf)">Planeta Anão</option>
+      <option value="Miniverse">Miniverse</option>
+      <option value="Teenyverse">Teenyverse</option>
+      <option value="Box">Caixa</option>
+      <option value="Spacecraft">Nave Espacial</option>
+      <option value="Artificially generated world">Mundo Gerado Artificialmente</option>
+      <option value="Machine">Máquinas</option>
+      <option value="Arcade">Arcade</option>
+      <option value="Spa">Spa</option>
+      <option value="Quasar">Quasar</option>
+      <option value="Quadrant">Quadrant</option>
+      <option value="Mount">Mount</option>
+      <option value="Liquid">Líquido</option>
+      <option value="Convention">Convention</option>
+      <option value="Woods">Madeiras</option>
+      <option value="Diegesis">Diegesis</option>
+      <option value="Non-Diegetic Alternative Reality">Realidade Alternativa Não-Diegética</option>
+      <option value="Nightmare">Pesadelo</option>
+      <option value="Asteroid">Asteroide</option>
+      <option value="Reality">Realidade</option>
+      <option value="Death Star">Estrela Morta</option>
+      <option value="Base">Base</option>
+      <option value="Elemental Rings">Anéis Elementais</option>
+      <option value="Space">Espaço</option>
+      <option value="Hell">Inferno</option>
+      <option value="Police Department">Departamento Policial</option>
+      <option value="Country">Cidade</option>
+      <option value="Consciousness">Consciência</option>
+      <option value="Memory">Memória</option>
+    </select>
+      </div>
+      <div class="col-4">
+    <select name="dimension" id="dimension" class="form-control">
+      <option value="">
+         Dimensão
+      </option>
+      <option value="Dimension C-137">Dimensão C-137</option>
+      <option value="Post-Apocalyptic Dimension">Dimensão Pós-Apocalíptica</option>
+      <option value="Replacement Dimension">Dimensão de Substituição</option>
+      <option value="Cronenberg Dimension">Dimensão Cronenberg</option>
+      <option value="Fantasy Dimension">Dimensão da Fantasia</option>
+      <option value="Dimension 5-126">Dimensão 5-126</option>
+      <option value="Testicle Monster Dimension">Dimensão do Monstro Testículo</option>
+      <option value="Cromulon Dimension">Dimensão Cromulon</option>
+      <option value="Dimension C-500A">Dimensão C-500A</option>
+      <option value="Dimension K-83">Dimensão K-83</option>
+      <option value="Dimension J19ζ7">Dimensão J19ζ7</option>
+      <option value="Eric Stoltz Mask Dimension">Dimensão Eric Stoltz Mask</option>
+      <option value="Evil Rick's Target Dimension">Dimensão alvo do Evil Rick</option>
+      <option value="Giant Telepathic Spiders Dimension">Dimensão da Aranha Gigante Telepática</option>
+      <option value="Unknown dimension">Dimensão Desconhecida</option>
+      <option value="Dimension K-22">Dimensão K-22</option>
+      <option value="Dimension D-99">Dimensão D-99</option>
+      <option value="Dimension D716">Dimensão D716</option>
+      <option value="Dimension D716-B">Dimensão D716-B</option>
+      <option value="Dimension D716-C">Dimensão D716-C</option>
+      <option value="Dimension J-22">Dimensão J-22</option>
+      <option value="Dimension C-35">Dimensão C-35</option>
+      <option value="Pizza Dimension"> Dimensão da Pizza</option>
+      <option value="Phone Dimension">Dimensão Telefone</option>
+      <option value="Chair Dimension">Dimensão Cadeira</option>
+      <option value="Fascist Dimension">Dimensão Fascista</option>
+      <option value="Wasp Dimension">Dimensão da Vespa</option>
+      <option value="Fascist Teddy Bear Dimension">Dimensão Fascista Urso Teddy</option>
+      <option value="Fascist Shrimp Dimension">Dimensão Fascista do Camarão</option>
+      <option value="Tusk Dimension">Dimensão Presa</option>
+      <option value="Magic Dimension">Dimensão Mágica</option>
+      <option value="Merged Dimension">Dimensão Mesclada</option>
+      <option value="unknown">Desconhecido</option>
+    </select>
+      </div>
+    </div>
+  </div>
+  <div class="containermy">
+    <section class="locations">
+      <div class="locations-container">
+        <!-- Local para exibir as localizações -->
+      </div>
+      <button id="load-more-locations">
+        Carregar mais localizações
+      </button>
+    </section>
+  </div>
+
+  <script src="locations.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
